@@ -1,0 +1,161 @@
+
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+    
+
+}
+
+body {
+    background-color: var(--Eggshell);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x :Hidden;
+    max-width: 100% !important;
+
+    
+
+}
+
+
+.recipe-card {
+    background-color: var(--Rose-White);
+}
+
+h1 {
+  font-size: 40px;
+  color: var(--Dark-Charcoal);
+  font-family: "Young Serif", serif;
+  font-weight: 600;
+
+}
+
+
+h2 {
+  font-size: 30px;
+  color: var(--Dark-Raspberry);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+
+h3 {
+  font-size: 20px;
+  color: var(--Dark-Raspberry);
+}
+
+
+
+.recipe-card {
+    max-width: 735px;
+    border-radius: 20px;
+   height: fit-content;
+}
+
+img {
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+li {
+    line-height: 1.8;
+    font-family: "Outfit", sans-serif;
+    color: var(--Wenge-Brown);
+    padding-left: 20px;
+    
+}
+
+
+.container {
+
+max-width: 665px;
+
+padding: 40px;
+border-radius: 20px;
+
+
+
+}
+
+
+li::marker {
+    color: var(--Dark-Raspberry);
+    font-weight: bold;
+    
+
+    
+ 
+  }
+
+
+
+.preparation-section {
+    background-color: var(--Eggshell);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 40px;
+
+    
+}
+
+.Instructions li span {
+    font-weight: bold;
+    color: var(--Wenge-Brown);
+}
+
+.preparation-section ul li span {
+    font-weight: bold;
+    color: var(--Wenge-Brown);
+
+}
+
+p {
+    line-height: 1.5;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: var(--Wenge-Brown);
+    
+}
+
+
+.line {
+    height: 30px;
+    max-width: 665px;
+    color: var(--Wenge-Brown);
+}
+
+
+td {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: var(--Wenge-Brown);
+    padding: 10px;
+}
+
+
+    .quantity {
+        color: var(--Dark-Raspberry);
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        padding-left: 250px;
+        margin-bottom: 30px;
+        
+        }
+
+
+
+.td {
+    display: flex;
+    justify-content: space-between;
+}
